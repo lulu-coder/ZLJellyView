@@ -15,6 +15,7 @@
 		0CCFE8BB1C4F7F5900DB638F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0CCFE8B91C4F7F5900DB638F /* LaunchScreen.storyboard */; };
 		0CCFE8C61C4F7F5900DB638F /* ZLJellyViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CCFE8C51C4F7F5900DB638F /* ZLJellyViewTests.m */; };
 		0CCFE8D11C4F7F5900DB638F /* ZLJellyViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CCFE8D01C4F7F5900DB638F /* ZLJellyViewUITests.m */; };
+		0CCFE8E01C4F7FAB00DB638F /* ZLJellyView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CCFE8DF1C4F7FAB00DB638F /* ZLJellyView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		0CCFE8CC1C4F7F5900DB638F /* ZLJellyViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZLJellyViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0CCFE8D01C4F7F5900DB638F /* ZLJellyViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZLJellyViewUITests.m; sourceTree = "<group>"; };
 		0CCFE8D21C4F7F5900DB638F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0CCFE8DE1C4F7FAB00DB638F /* ZLJellyView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZLJellyView.h; sourceTree = "<group>"; };
+		0CCFE8DF1C4F7FAB00DB638F /* ZLJellyView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZLJellyView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +104,8 @@
 		0CCFE8AA1C4F7F5900DB638F /* ZLJellyView */ = {
 			isa = PBXGroup;
 			children = (
+				0CCFE8DE1C4F7FAB00DB638F /* ZLJellyView.h */,
+				0CCFE8DF1C4F7FAB00DB638F /* ZLJellyView.m */,
 				0CCFE8AE1C4F7F5900DB638F /* AppDelegate.h */,
 				0CCFE8AF1C4F7F5900DB638F /* AppDelegate.m */,
 				0CCFE8B11C4F7F5900DB638F /* ViewController.h */,
@@ -271,6 +276,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0CCFE8B31C4F7F5900DB638F /* ViewController.m in Sources */,
+				0CCFE8E01C4F7FAB00DB638F /* ZLJellyView.m in Sources */,
 				0CCFE8B01C4F7F5900DB638F /* AppDelegate.m in Sources */,
 				0CCFE8AD1C4F7F5900DB638F /* main.m in Sources */,
 			);

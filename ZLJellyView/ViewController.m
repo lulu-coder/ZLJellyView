@@ -7,7 +7,7 @@
 //
 
 #import "ViewController.h"
-
+#import "ZLJellyView.h"
 @interface ViewController ()
 
 @end
@@ -16,7 +16,8 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+    ZLJellyView * jellyView = [[ZLJellyView alloc]initWithFrame:CGRectMake(0, 0, self.view.frame.size.width, self.view.frame.size.height)];
+    [self.view addSubview:jellyView];
 }
 
 - (void)didReceiveMemoryWarning {
